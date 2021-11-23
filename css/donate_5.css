@@ -169,7 +169,7 @@ li{
 }
 
 .donate_left_square{
-    background-image: url(/images/donate_5.png);
+    background-image: url(images/donate_5.png);
     background-position: 50% 50%;
     background-size: cover;
     min-height: 450px;
