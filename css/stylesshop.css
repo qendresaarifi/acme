@@ -155,7 +155,7 @@ li{
 .white_tent_image{
     margin-top: 50px;
     border-radius: 5px;
-    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.22), rgba(34, 34, 34, 0.69)), url(/images/camp_dog.jpg);
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.22), rgba(34, 34, 34, 0.69)), url(images/camp_dog.jpg);
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -302,19 +302,19 @@ li{
 }
 
 .product_1{
-    background-image: url(/images/shop_giftcard.jpg);
+    background-image: url(images/shop_giftcard.jpg);
 }
 
 .product_2{
-    background-image: url(/images/cofe.jpg);
+    background-image: url(images/cofe.jpg);
 }
 
 .product_3{
-    background-image: url(/images/backpack2.jpg);
+    background-image: url(images/backpack2.jpg);
 }
 
 .product_4{
-    background-image: url(/images/shop_pack.jpg);
+    background-image: url(images/shop_pack.jpg);
 }
 
 
