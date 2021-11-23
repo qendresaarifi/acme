@@ -157,7 +157,7 @@ li{
 }
 
 .tent_left_image{
-    background-image: url(/images/shop_pack.jpg);
+    background-image: url(images/shop_pack.jpg);
     background-position: 50% 50%;
     background-size: cover;
     min-height: 450px;
