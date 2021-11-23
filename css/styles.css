@@ -131,7 +131,7 @@ li{
 
 .bloc_intro {
     width: 100%;
-    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("/images/hiking7.jpg");
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("images/hiking7.jpg");
     color: white;
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
@@ -244,7 +244,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("/images/hiking8.jpg");
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("images/hiking8.jpg");
     color: white;
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
@@ -325,15 +325,15 @@ li{
 }
 
 .img1 {
-    background-image: url(/images/camp_dog.jpg)
+    background-image: url(images/camp_dog.jpg)
 }
 
 .img2 {
-    background-image: url(/images/cofe.jpg);
+    background-image: url(images/cofe.jpg);
 }
 
 .img3 {
-    background-image: url(/images/backpack2.jpg);
+    background-image: url(images/backpack2.jpg);
     position: relative;
 }
 
@@ -434,7 +434,7 @@ li{
 }
 
 .shop_local_image {
-    background-image: url(/images/shoplocal.jpg);
+    background-image: url(images/shoplocal.jpg);
     background-position: 69% 80%;
     background-size: 270%;
     position: absolute;
