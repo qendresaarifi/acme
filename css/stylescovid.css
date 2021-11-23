@@ -1,0 +1,301 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
+}
+
+
+
+
+
+
+
+
+
+
+
+html, body, header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+    color: #333;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: #222;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+}
+.announcement{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #222;
+    color: #f9f9f9;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.announcement_button{
+    text-decoration:none;
+    background: #F4464C;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+/*-----------------------------INTRO----------------------------------------------------------------------------->*/
+nav a, ul {    
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+
+nav{
+    width: 100%;
+    background: #F4464C;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 80px 10px 80px;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.btn_menu{
+    transition: background-color 300ms;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn_menu:hover{
+    background: #222;
+}
+
+.shopping_cart{
+    background: #222;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/*----------------------------------------------------Titre------------------------------------------------*/
+
+.titre{
+    padding-top: 150px;
+}
+
+.titre_page_covid{
+    color: white;
+    background: #222;
+   
+}
+.titre_covid{
+    padding: 50px 0 50px 90px;
+    font-size: 40px;
+}
+
+.contact{
+    color: #F4464C;
+}
+
+
+.covid_texte{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top:50px ;
+}
+
+.covid_title{
+    padding: 50px 0;
+    font-size: 30px;
+}
+
+.covid_p{
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*-------------------------------------------------FOOTER-------------------------------------------------------*/
+
+footer{
+    background: #222;
+    width: 100%;
+    color: white;
+    padding-top: 70px;
+}
+
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 14px;
+
+}
+
+i.logos{
+   font-size: 30px;
+   padding-left: 15px;
+}
+
+.color{
+    color: white;
+}
+
+.webflow{
+    color: #F4464C;
+    text-decoration: underline;
+}
+
+
+
+/*-----------------------------------------------MOBILE----------------------------------------------------*/
+
+
+
+@media screen and (max-width:770px){
+
+    /*----------------------------MENU-----------------------------*/
+        .announcement{
+            flex-direction: column;
+        }
+    
+        .announcement_button{
+            font-size: 12px;
+        }
+    
+        .announcement_title{
+            font-size: 18px;
+            padding-top: 15px;
+        }
+
+
+        .fa-bars{
+            font-size: 28px;
+            position: absolute;
+            right: 10%;
+            top: 73%;
+        }
+        
+        .logo{
+            padding-right: 10px;
+        }
+    
+        nav
+        {   
+            height: 60px;
+            padding: 0;
+        }
+    
+        #toggle{
+            display: none;
+        }
+
+        .fa-bars{
+            display: flex;
+        }
+
+
+        nav ul
+        {
+            display: none;
+            flex-direction: column;
+            background: #F4464C;
+            height: 220px;
+            transform: translate(-800, 0);
+            justify-content: center;
+            align-items: center;
+        }
+    
+     
+        .menu_mobile
+        {
+            width: 30px;
+            display: flex;
+            margin: 0 auto;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+        }
+     
+        #toggle:checked + nav ul {
+            display: flex;
+            transform: translate(0, 0);
+            width: 100%;
+            padding-top: 100px;
+            width: 100vw;
+            padding-top: 160px;
+            padding-bottom: 250px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+           
+        }
+
+/* ---------------------------------INTRO----------------------------- */
+ 
+        .titre_covid{
+            padding-left: 20px;
+        }
+
+
+
+
+    }

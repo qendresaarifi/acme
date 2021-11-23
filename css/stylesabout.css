@@ -1,0 +1,699 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+    color: #333;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: #222;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+}
+.announcement{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #222;
+    color: #f9f9f9;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.announcement_button{
+    text-decoration:none;
+    background: #F4464C;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/*-----------------------------INTRO----------------------------------------------------------------------------->*/
+nav a, ul {    
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+
+nav{
+    width: 100%;
+    background: #F4464C;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 80px 10px 80px;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.btn_menu{
+    transition: background-color 300ms;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn_menu:hover{
+    background: #222;
+}
+
+.shopping_cart{
+    background: #222;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+
+.container_about{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#toggle, .menu_mobile{
+    display: none;
+}
+
+/*---------------------------BLOC INTRO--------------------------------------------------------------------------->*/
+
+.bloc_intro{
+    width: 100%;
+    background-image:  linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),url("/images/about_1.jpg");
+    color: white;
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+h1{
+    font-size: 60px;
+    width: 50%;
+    padding: 300px 0 10px 0px;
+}
+.p1{
+    font-size: 20px;
+    width: 40%;
+    padding: 10px 0 90px 0px; 
+    word-spacing: 2px;
+}
+
+.button_shop{
+    width: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    margin: 20px 0 10px 0px;
+    padding: 10px;
+    border: solid white;
+    border-width: 1px;
+    border-radius: 5px ; 
+}
+
+.business_i{
+    font-size: 40px;
+}
+
+
+/*---------------------------------------------Bloc BUSINESS---------------------------------------------------*/       
+
+.business_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.business_title{
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.p2{
+    font-size:32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    line-height: 36px;
+}
+
+.p3{
+    width: 50%;
+}
+
+.business_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.business_i{
+    color: #F4464C;
+}
+
+.business_titles{
+    font-size: 23px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.business_p{
+    width: 80%;
+}
+
+
+/*-------------------------------------------------Bloc OWNERS--------------------------------------------------*/
+
+
+.owners_container{
+    display: flex;  
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 150px;
+    min-height: 700px;
+    justify-content: flex-end;
+    z-index: -1;
+}
+
+.owners_carre{
+    background: #222;
+    color: white;
+    display: flex;
+    padding: 45px;
+    justify-content: flex-end;
+    padding: 45px;
+    width: 70%;
+    border-radius: 5px;
+    
+}
+
+.owners_carre_content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    width: 93%;
+    justify-content: center;
+}
+
+.owners_image{
+    background-image: url(/images/about_2.jpg);
+    background-position: 10% 80%;
+    background-size:100%;
+    position: absolute;
+    left: 0%;
+    top: 6%;
+    right: auto;
+    bottom: 0%;
+    width: 45%;
+    border-radius: 5px;
+    min-height: 620px;
+    height: 0px;   
+}
+
+.image_owners{
+    width: 30%;
+    opacity: 0;
+}
+
+.owners_title{
+    font-size: 30px;
+}
+
+.owners_p_font{
+    padding: 15px 0;
+    font-weight: none;
+}
+
+/*------------------------------------------Bloc Intro_Owners---------------------------------------------------*/
+
+
+.intro_owners{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+.intro_owners_image{
+    width: 34%;
+}
+
+.intro_owners_left, .intro_owners_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro_owners_p{
+    width: 73%;
+    margin: 0;
+    word-spacing:4px ;
+    
+}
+
+.intro_owners_title{
+    padding: 15px 0; 
+    font-size: 23px;
+}
+
+/*-----------------------------------------------Bloc HELP----------------------------------------------------*/
+
+.need_help{
+    background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(/images/about_3.jpg);
+    color: white;
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+
+.need_help_title{
+    font-size: 60px;
+    width: 50%;
+    padding: 150px 0 10px 0px;
+    
+}
+
+.need_help_p{
+    font-size: 20px;
+    width: 40%;
+    padding: 10px 0 90px 0px;
+}
+
+
+.need_help_button{
+    width: 10%;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    margin: 20px 0 80px 0px;
+    padding: 5px 25px;
+    border: solid white;
+    border-width: 1px;
+    border-radius: 5px ;
+    text-decoration: none;
+    
+}
+
+
+
+
+/*-------------------------------------------------FOOTER-------------------------------------------------------*/
+
+
+footer{
+    background: #222;
+    width: 100%;
+    color: white;
+    padding-top: 70px;
+}
+
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 14px;
+
+}
+
+i.logos{
+   font-size: 30px;
+   padding-left: 15px;
+}
+
+.color{
+    color: white;
+}
+
+.webflow{
+    color: #F4464C;
+    text-decoration: underline;
+}
+
+/*-----------------------------------------------MOBILE----------------------------------------------------*/
+
+
+
+@media screen and (max-width:770px){
+
+    /*----------------------------MENU-----------------------------*/
+        .announcement{
+            flex-direction: column;
+        }
+    
+        .announcement_button{
+            font-size: 12px;
+        }
+    
+        .announcement_title{
+            font-size: 18px;
+            padding-top: 15px;
+        }
+    
+        .fa-bars{
+            font-size: 28px;
+            position: absolute;
+            right: 10%;
+            top: 73%;
+        }
+        
+        .logo{
+            padding-right: 10px;
+        }
+    
+        nav
+        {   
+            height: 60px;
+            padding-left:20px;
+        }
+    
+        #toggle{
+            opacity: 0;
+        }
+
+        nav ul
+        {
+            display: none;
+            flex-direction: column;
+            background: #F4464C;
+            height: 220px;
+            transform: translate(-800, 0);
+            justify-content: center;
+            align-items: center;
+        }
+    
+     
+        .menu_mobile
+        {
+            width: 30px;
+            display: flex;
+            margin: 0 auto;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+        }
+     
+        #toggle:checked + nav ul {
+            display: flex;
+            transform: translate(0, 0);
+            width: 100%;
+            padding-top: 100px;
+            width: 100vw;
+            padding-top: 160px;
+            padding-bottom: 250px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+           
+        }
+
+    
+    /*----------------------------INTRO-----------------------------*/
+    
+    
+        .bloc_intro{
+            padding: 250px 0 40px 20px;
+            background-position: 0px 0px, 45% 50%;
+            background-size: auto, 1000px;
+        }
+    
+        .bloc_intro_title{
+            font-size: 30px;
+            width: 80%;
+            padding-top: 60px;
+        }
+    
+        .p1{
+            width: 60%;
+            font-size: 14px;
+        }
+    
+        .button_shop{
+            padding: 8px 20px;
+        }
+        
+
+
+
+
+
+
+
+
+
+/*------------------------------BUSINESS----------------------------*/
+
+    .business_column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .business_top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px 0;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .business_title{
+        font-size: 13px;
+        font-weight: normal;
+        padding-bottom: 20px;
+    }
+
+    .p2{
+        font-size:32px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        line-height: 36px;
+    }
+   
+    .p3{
+        width: 100%;
+    }
+
+    .business_bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+
+    .business_i{
+        color: #F4464C;
+    }
+
+    .business_title{
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+    }
+
+    .business_p{
+        width: 80%;
+    }
+
+
+/*-----------------------------MEET THE OWNERS----------------------------*/
+
+    .owners_container{
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        min-height: 600px;
+    }
+    
+
+    .owners_image{
+        position: inherit;
+        display: flex;
+        background-image: url(/images/about_2.jpg);
+        background-position: 10% 80%;
+        background-size:100%;
+        width: 100%;
+        min-height: 300px;
+        height: 0px;
+        border-radius: 0;
+        
+    }
+
+    .container_about{
+        padding:0;
+        
+    }
+
+    .owners_carre{
+        background: #222;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        min-height: 300px;
+    }
+    
+    .owners_carre_content{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shop_local_title{
+        font-size: 38px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .shop_p_font{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+
+/*-----------------------------TWO OWNERS----------------------------*/
+
+    .intro_owners{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro_owners_left{
+        padding-bottom: 50px;
+    }
+/*-----------------------------HELP----------------------------*/
+
+
+    .need_help{
+        padding: 250px 0 40px 20px;
+        background-position: 0px 0px, 45% 50%;
+        background-size: auto, 1000px;
+    }
+
+    .need_help_title{
+        font-size: 30px;
+        width: 80%;
+        padding-top: 60px;
+    }
+
+    .need_help_p{
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .need_help_button{
+        padding: 8px 20px;
+    }
+
+
+
+    
+    }
