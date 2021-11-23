@@ -154,7 +154,7 @@ li{
 
 .bloc_intro{
     width: 100%;
-    background-image:  linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),url("/images/about_1.jpg");
+    background-image:  linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),url("images/about_1.jpg");
     color: white;
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
@@ -277,7 +277,7 @@ h1{
 }
 
 .owners_image{
-    background-image: url(/images/about_2.jpg);
+    background-image: url(images/about_2.jpg);
     background-position: 10% 80%;
     background-size:100%;
     position: absolute;
@@ -343,7 +343,7 @@ h1{
 /*-----------------------------------------------Bloc HELP----------------------------------------------------*/
 
 .need_help{
-    background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(/images/about_3.jpg);
+    background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(images/about_3.jpg);
     color: white;
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
